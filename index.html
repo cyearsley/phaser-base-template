@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <script src="./node_modules/phaser-ce/build/phaser.min.js"></script>
   </head>
   <body>
     <div id="game-div"></div>
@@ -10,7 +11,7 @@
 
   <script>
     // You can also require other files to run in this process
-    require('./renderer.js')
-    let phaser = require('phaser');
+    require('./renderer.js');
+    console.log("PHASER: ", Phaser);
   </script>
 </html>
